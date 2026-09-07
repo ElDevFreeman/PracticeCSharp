@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Rocket Loading Simulation/Rocket Loading Simulation.csproj" />
+  <Project Path="TestAnimationLove/TestAnimationLove.csproj" Id="be394410-7e3f-4e7d-9d77-cc2c44d5a0c9" />
+  <Project Path="TextAdventureGame/TextAdventureGame.csproj" Id="d74cb801-29d8-4f9f-8488-833425340984" />
+  <Project Path="UltraRocket/UltraRocket.csproj" Id="a92fafb5-80e2-470c-8092-9a0a5349186a" />
+</Solution>
