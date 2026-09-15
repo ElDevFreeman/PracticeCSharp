@@ -1,7 +1,23 @@
 <Solution>
-  <Project Path="LoopBasic/LoopBasic.csproj" Id="74b01ec9-fe9f-4c8b-9ef1-21b0626a2617" />
-  <Project Path="Rocket Loading Simulation/Rocket Loading Simulation.csproj" />
-  <Project Path="TestAnimationLove/TestAnimationLove.csproj" Id="be394410-7e3f-4e7d-9d77-cc2c44d5a0c9" />
-  <Project Path="TextAdventureGame/TextAdventureGame.csproj" Id="d74cb801-29d8-4f9f-8488-833425340984" />
-  <Project Path="UltraRocket/UltraRocket.csproj" Id="a92fafb5-80e2-470c-8092-9a0a5349186a" />
+  <Folder Name="/01_Fundamentos/">
+    <Project Path="HelloWorld/HelloWorld.csproj" Id="1a2b3c4d-0001-0001-0001-000000000001" />
+    <Project Path="VariablesYTipos/VariablesYTipos.csproj" Id="1a2b3c4d-0002-0002-0002-000000000002" />
+  </Folder>
+  <Folder Name="/02_ControlDeFlujo/">
+    <Project Path="LoopBasic/LoopBasic.csproj" Id="74b01ec9-fe9f-4c8b-9ef1-21b0626a2617" />
+    <Project Path="TextAdventureGame/TextAdventureGame.csproj" Id="d74cb801-29d8-4f9f-8488-833425340984" />
+  </Folder>
+  <Folder Name="/03_Metodos/">
+    <Project Path="MetodosPractica/MetodosPractica.csproj" Id="1a2b3c4d-0003-0003-0003-000000000003" />
+  </Folder>
+  <Folder Name="/04_Arrays_Y_Colecciones/">
+    <Project Path="Array/Array.csproj" Id="948e92e9-b03c-410c-ae70-429a0dd53220" />
+  </Folder>
+  <Folder Name="/05_ProyectosCreativos/">
+    <Project Path="Rocket Loading Simulation/Rocket Loading Simulation.csproj" />
+    <Project Path="TestAnimationLove/TestAnimationLove.csproj" Id="be394410-7e3f-4e7d-9d77-cc2c44d5a0c9" />
+    <Project Path="UltraRocket/UltraRocket.csproj" Id="a92fafb5-80e2-470c-8092-9a0a5349186a" />
+  </Folder>
+  <Folder Name="/DummyProjects/" />
+  <Folder Name="/Exercises/" />
 </Solution>
