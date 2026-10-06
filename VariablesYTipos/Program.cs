@@ -62,7 +62,7 @@ Console.WriteLine("Tiene descuento: " + tieneDescuento);
 
 // ----------------------------------------------------------
 // TIPO: char  (un SOLO caracter, va entre comillas simples)
-// ----------------------------------------------------------
+// --------------------74--------------------------------------
 char inicial = 'M';
 char signo = '+';
 char numero = '7';  // nota: esto es el CARACTER '7', no el numero 7
