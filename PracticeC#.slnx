@@ -23,5 +23,6 @@
     <Project Path="WeatherStationSimulation/WeatherStationSimulation.csproj" Id="5dfad557-5b08-4e5f-9870-271ec78fb9bd" />
   </Folder>
   <Folder Name="/Exercises/" />
+  <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="d2fd7e20-db35-4b97-92a1-7838953b67d8" />
   <Project Path="test ruby/test ruby.csproj" Id="9b5a97e4-5bd3-4331-8a43-4e1124db8316" />
 </Solution>
