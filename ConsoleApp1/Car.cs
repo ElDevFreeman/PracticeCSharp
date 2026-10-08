@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 using System.Text;
 
 namespace ConsoleApp1
@@ -40,4 +41,44 @@ namespace ConsoleApp1
 
     }
 }
- 
+
+
+
+public class OuterClass
+{
+    private string outerField = "I belong to OuterClass";
+
+    public class InnerClass
+    {
+        private OuterClass outer;
+
+        public InnerClass(OuterClass outer)
+        {
+            this.outer = outer;
+        }
+
+        public void DisplayOuterField()
+        {
+            Console.WriteLine(outer.outerField);
+        }
+    }
+}
+
+
+
+class Program
+{
+
+    //public Vector Add(Vector other)
+    //{
+    //    return new Vector(this.X + other.X, this.Y + other.Y);
+    //}
+
+
+    static void Main()
+    {
+        OuterClass outerObject = new OuterClass();
+        OuterClass.InnerClass innerObject = new OuterClass.InnerClass(outerObject);
+        innerObject.DisplayOuterField();
+    }
+}
