@@ -25,5 +25,7 @@
   <Folder Name="/Exercises/" />
   <Project Path="Classes/Classes.csproj" Id="b9594d6f-96ec-4f19-895e-d02f5bc23ca3" />
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="d2fd7e20-db35-4b97-92a1-7838953b67d8" />
+  <Project Path="QuizAppTest/QuizAppTest.csproj" Id="f9a324d4-7ddf-43bb-8fa9-640eea43835e" />
+  <Project Path="ReadOnlyExercise/ReadOnlyExercise.csproj" Id="db7905af-0a68-4cda-b0b0-806a61821ed9" />
   <Project Path="test ruby/test ruby.csproj" Id="9b5a97e4-5bd3-4331-8a43-4e1124db8316" />
 </Solution>
