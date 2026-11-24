@@ -13,7 +13,29 @@ namespace QuizAppTest
             this.questions =  questions;
         }
 
-        public void DisplayQuestion(Question question) 
+        public void StartQuiz()
+        {
+            Console.WriteLine("Welcome to the Quiz");
+            int questionNumber = 1;
+
+            foreach (Question question in questions)
+            {
+                Console.WriteLine($"Question {questionNumber++}:");
+                DisplayQuestion(question);
+                int userChoice = GetUserChoise();
+
+                if (question.IsCorrectAnswer(userChoice))
+                {
+                    Console.WriteLine("Correct");
+                }
+                else
+                {
+                    Console.WriteLine($"Wrong! The correct answer was: {question.Answers[question.CorrectAnswerIndex]}"); 
+                }
+            }
+        }
+
+        private void DisplayQuestion(Question question) 
         {
 
             Console.ForegroundColor = ConsoleColor.DarkBlue;
@@ -36,14 +58,14 @@ namespace QuizAppTest
 
             }
 
-            if(GetUserChoise() == question.CorrectAnswerIndex)
-            {
-                Console.WriteLine("Correct");
-            }
-            else
-            {
-                Console.WriteLine("Incorrect");
-            }
+            //if(GetUserChoise() == question.CorrectAnswerIndex)
+            //{
+            //    Console.WriteLine("Correct");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Incorrect");
+            //}
 
               
 
@@ -51,7 +73,7 @@ namespace QuizAppTest
 
         private int GetUserChoise()
         {
-            Console.WriteLine("Your answer (number): ");
+            Console.Write($"Your answer number:");
             string input = Console.ReadLine();
             int choice = 0;
             while(!int.TryParse(input, out choice) || choice < 1 || choice > 4)
